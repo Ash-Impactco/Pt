@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav-content">
+                <div class="logo">Your Name</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="home" class="home-section">
+            <div class="profile-container">
+                <div class="profile-image">
+                    <img src="https://via.placeholder.com/150" alt="Aswin Raj Sivaprakash">
+                </div>
+                <div class="profile-info">
+                    <h1>Aswin Raj Sivaprakash</h1>
+                    <p>Business Executive / Customer Support</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>Spearheaded data-driven marketing strategies across Clean Tech, Pharmaceutical, Travel, and IGaming sectors, increasing lead generation by 35% and improving marketing ROI by 22% across diverse European markets. Passionate about driving impactful climate solutions and global sustainability through targeted marketing across the globe.</p>
+                <div class="personal-info">
+                    <div class="info-item">
+                        <span>Email:</span>
+                        <span>aswinr63@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <span>Location:</span>
+                        <span>Porto, Portugal</span>
+                    </div>
+                    <div class="info-item">
+                        <span>Phone:</span>
+                        <span>+351 938816822</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education-section">
+            <h2>Education</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <h3>MASTER'S IN ENVIRONMENTAL AND ENERGY MANAGEMENT</h3>
+                    <p>University of Twente, Enschede</p>
+                    <p class="date">2021 - 2022</p>
+                </div>
+                <div class="education-item">
+                    <h3>BACHELOR'S IN ENVIRONMENTAL SCIENCE</h3>
+                    <p>Amity University, Noida</p>
+                    <p class="date">2015 - 2018</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience-section">
+            <h2>Experience</h2>
+            <div class="tab-container">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" onclick="openTab(event, 'sustainability')">Sustainability</button>
+                    <button class="tab-btn" onclick="openTab(event, 'business-dev')">Business Dev</button>
+                    <button class="tab-btn" onclick="openTab(event, 'ventures')">Ventures</button>
+                </div>
+                
+                <div id="sustainability" class="tab-content active">
+                    <div class="experience-item">
+                        <h3>CLEAN TECH MARKETER</h3>
+                        <p>Freelance</p>
+                        <p class="date">Jan 2025 - Present</p>
+                        <ul class="experience-details">
+                            <li>Executed targeted demand generation campaigns for early-stage cleantech startups, increasing SQLs by 1.5× and contributing to a $100K+ sales pipeline.</li>
+                            <li>Improved lead quality and reduced CAC through SEO, PPC, and HubSpot.</li>
+                            <li>Supported cross-functional GTM activities across energy and mobility sectors.</li>
+                            <li>Helped boost site traffic by 50% and enhanced MQL engagement.</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <h3>ENVIRONMENTAL ASSISTANT</h3>
+                        <p>MGK Aqua Inco, India</p>
+                        <p class="date">Nov 2020 - Aug 2021</p>
+                        <ul class="experience-details">
+                            <li>Developed Detailed Project Reports (DPRs) on sustainability, climate change, GHG management, and energy efficiency for BOSCH, PepsiCo, and multiple textile and tanning companies.</li>
+                            <li>Led water treatment initiatives for 15+ residential and corporate projects by analyzing BOD, DO, TSS, and other parameters.</li>
+                            <li>Designed coagulant/flocculant specifications and supported the installation of drinking water setups, acoustic blowers, and ETPs.</li>
+                            <li>Conducted waste management training during corporate/public events and utilized Agile/Kanban methods for sales tracking and stakeholder engagement.</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <h3>PROJECT ASSISTANT</h3>
+                        <p>UNICEF, Water Sanitation and Hygiene (WASH), India</p>
+                        <p class="date">Jul 2018 - Jun 2019</p>
+                        <ul class="experience-details">
+                            <li>Communicated with government officials regarding environmental sustainability and GHG Management projects.</li>
+                            <li>Streamlined water testing by analyzing 63 parameters and integrated solar-powered stoves for over 10,000 tea estate residents.</li>
+                            <li>Modernized the preliminary designs for water pumps and beddings in 16 tea estates across Dibrugarh, Assam.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="business-dev" class="tab-content">
+                    <div class="experience-item">
+                        <h3>CUSTOMER SUCCESS & MARKETING SPECIALIST</h3>
+                        <p>Scores & Levels, Porto</p>
+                        <p class="date">June 2024 - Present</p>
+                        <ul class="experience-details">
+                            <li>Collaborated with the marketing team to develop data-driven promotional strategies using HubSpot, leading to a 25% increase in customer retention across all regions.</li>
+                            <li>Executed bulk messaging campaigns targeting 10,000+ clients, driving a 15% uplift in player engagement and a 10% increase in deposits.</li>
+                            <li>Oversaw player engagement and retention initiatives, contributing to a 20% overall growth in customer lifetime value across Asian, African, and Brazilian markets.</li>
+                            <li>Managed a portfolio of 150+ VIP customers, conducting telemarketing campaigns that resulted in a 20% increase in high-value customer engagement.</li>
+                            <li>Promoted new bonuses and offers, leading to the reactivation of 30% of dormant VIP accounts across targeted regions.</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <h3>BUSINESS DEVELOPMENT MANAGER</h3>
+                        <p>National Chromatography Inco, Europe</p>
+                        <p class="date">Oct 2022 - May 2024</p>
+                        <ul class="experience-details">
+                            <li>Acquired consistent new business with well-formulated and executed strategies based on market expertise.</li>
+                            <li>Collaborated with sales and business development teams to fulfill bids, RFP, and tender under strict timelines.</li>
+                            <li>Contributed to bottom line revenue by attaining 80% of sales quota.</li>
+                            <li>Revitalized marketing efforts employing streamlined processes and rebranding initiatives.</li>
+                            <li>Prospected and qualified marketing leads from the pharmaceutical industry using Salesforce CRM attaining conversion rates of 13%.</li>
+                            <li>Ampified international sales by selling pharmaceutical stocks worth $35k across North America and South Asia.</li>
+                            <li>Liaised with directors, R&D team, sales and procurement team, dispatch and management teams through weekly and monthly meetings.</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <h3>CLIENT RELATIONSHIP SPECIALIST</h3>
+                        <p>Eurail, Netherlands</p>
+                        <p class="date">Sept 2022 - Aug 2023</p>
+                        <ul class="experience-details">
+                            <li>Addressed customer inquiries through phone, email, and chat channels.</li>
+                            <li>Diagnosed and troubleshooted customer problems while delivering technical assistance.</li>
+                            <li>Monitored and escalated complex bet disputes to RFBA, CRM, or OPS teams using 9 Wickets.</li>
+                            <li>Assisted over 300 clients monthly with account registrations, deposits, and withdrawals.</li>
+                            <li>Managed a portfolio of 150+ VIP customers, conducting telemarketing campaigns that resulted in a 20% increase in high-value customer engagement.</li>
+                            <li>Promoted new bonuses and offers, leading to the reactivation of 30% of dormant VIP accounts across targeted regions.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="ventures" class="tab-content">
+                    <div class="venture-item">
+                        <h3>Sustainable initiatives making a difference</h3>
+                        <div class="venture-content">
+                            <div class="venture-entry">
+                                <h4>INTRUSIVE THOUGHTS</h4>
+                                <p class="date">2022 - Present</p>
+                                <ul class="venture-details">
+                                    <li>Created Intrusive Thoughts, a platform to spread awareness about sustainable living and eco-friendly practices</li>
+                                    <li>Share engaging content about climate change, renewable energy, and practical ways to live sustainably</li>
+                                    <li>Organize workshops and campaigns to educate communities about environmental issues</li>
+                                </ul>
+                                <div class="links">
+                                    <a href="https://intrusivethoughts.com" target="_blank">Follow us: Intrusive Thoughts</a>
+                                </div>
+                            </div>
+                            <div class="venture-entry">
+                                <h4>BURRITO DELHI</h4>
+                                <p class="date">2023 - Present</p>
+                                <ul class="venture-details">
+                                    <li>Launched Burrito Delhi, a plant-based food venture that promotes sustainable eating</li>
+                                    <li>Offer delicious vegan burritos made with locally-sourced, organic ingredients</li>
+                                    <li>Implement food waste reduction strategies through precision cooking and composting</li>
+                                </ul>
+                                <div class="links">
+                                    <a href="https://instagram.com/burrito_delhi" target="_blank">Join us on: @burrito_delhi</a>
+                                </div>
+                            </div>
+                            <div class="venture-entry">
+                                <h4>ANNA KADUKAAN</h4>
+                                <p class="date">2023 - Present</p>
+                                <ul class="venture-details">
+                                    <li>Partnered in Anna Kadukaan, a vegan food venture that blends traditional Indian flavors with sustainable practices</li>
+                                    <li>Transform traditional recipes into vegan delights while reducing carbon footprint</li>
+                                    <li>Support local farmers and promote seasonal, sustainable produce</li>
+                                </ul>
+                                <div class="links">
+                                    <a href="https://instagram.com/annakadukaan" target="_blank">Follow us: @annakadukaan</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2>Projects</h2>
+            <div class="projects-content">
+                <div class="project-item">
+                    <h3>Upcoming Geothermal Heat Grid</h3>
+                    <p>Leeuwarden, Netherlands</p>
+                    <p class="date">Feb 2022 - Apr 2022</p>
+                    <p>Conducted comprehensive social impact assessment through interviews with 100 respondents. Implemented DESSIN-ESS conceptual framework for qualitative data processing.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Coral Bleaching Status</h3>
+                    <p>Andaman Islands, India</p>
+                    <p class="date">Dec 2017 - Feb 2018</p>
+                    <p>Conducted comprehensive SST analysis revealing 1°C temperature threshold above maximum monthly temperature. Developed Coral Bleaching Alert System (CBAS) using satellite-derived SST data.</p>
+                </div>
+                <div class="project-item">
+                    <h3>EV-Charging App Pilot</h3>
+                    <p>SMOOV, Netherlands</p>
+                    <p class="date">Apr 2022 - Jul 2022</p>
+                    <p>Assisted in product marketing strategy for fast-charging network. Performed traffic analysis and urban planning recommendations.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>Marketing & Demand Generation</h3>
+                    <ul>
+                        <li>HubSpot</li>
+                        <li>Salesforce</li>
+                        <li>Mailchimp</li>
+                        <li>Zendesk</li>
+                        <li>Coldoutreach</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Analytics & Reporting</h3>
+                    <ul>
+                        <li>SQL</li>
+                        <li>PowerBI</li>
+                        <li>CRM</li>
+                        <li>Excel</li>
+                        <li>Google Sheets</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Project & Stakeholder Management</h3>
+                    <ul>
+                        <li>Jira/Kanban</li>
+                        <li>Agile</li>
+                        <li>SOP Development</li>
+                        <li>Cross-functional Collaboration</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Porto, Portugal</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>aswinr63@gmail.com</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/aswin-sivaprakash" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/your-github-username" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://drive.google.com/file/d/your-cv-file-id/view" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
