@@ -1,14 +1,17 @@
 {
-  "name": "aswin-portfolio",
-  "version": "1.0.0",
-  "description": "Aswin Raj Sivaprakash's Personal Portfolio",
-  "main": "index.html",
+  "name": "pt",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vite": "^5.0.0"
+    "vite": "^5.0.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1"
   }
 }
